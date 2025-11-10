@@ -39,7 +39,7 @@ if (missingVars.length > 0 && import.meta.env.MODE === 'production') {
 const config = {
   // API Configuration
   api: {
-    baseUrl: getEnv('VITE_API_BASE_URL', 'http://localhost:5000'),
+    baseUrl: getEnv('VITE_API_BASE_URL', 'https://calls-api.0804.in'),
     timeout: parseInt(getEnv('VITE_API_TIMEOUT', '30000'), 10)
   },
 

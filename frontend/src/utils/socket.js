@@ -1,6 +1,6 @@
 import { io } from 'socket.io-client';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://calls-api.0804.in';
 
 const socket = io(API_BASE_URL, {
   transports: ['websocket', 'polling'],
